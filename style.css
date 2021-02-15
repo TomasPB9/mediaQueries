@@ -18,18 +18,51 @@ ul{
 }
 
 /* breakpoint -> set limit to change */
-@media screen and (min-width:320px ) and (max-width:480 px){
+@media screen and (min-width:320px ) and (max-width:480px){
+
+    /* Everything we want to change and how I want it to change goes in here */
+    /* todo lo que queremos que cambie y como quiero que cambie va aquí adentro */
 
     body{
         background-color: white;
     }
-    /* Everything we want to change and how I want it to change goes in here */
-    /* todo lo que queremos que cambie y como quiero que cambie va aquí adentro */
-
 }
 
-@media screen and(min-width:768px) and (max-width:1014px){
+@media screen and (min-width:480px) and (max-width:630px){
     body{
-        background-color: blue;
+        background-color: orange;
     }
 }
+
+@media screen and (min-width:630px) and (max-width:768px){
+    body{
+        background-color: gray;
+        font-size: 60px;
+    }
+}
+
+/* breakpoint -> set limit to change */
+@media screen and (min-width:768px ) and (max-width:1024px){
+
+    body{
+        background-color: blue;
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (min-width:1024px ){
+    body{
+        background-color: green;
+    }
+
+}
+
+
+@media screen and (min-width:1285px){
+    body{
+        background-color: yellow;
+    }
+}
+
+/* reto 1->crea diferentes colores con las @media y tambien que cambie el font-size en cada ino de mis breakpoints */
